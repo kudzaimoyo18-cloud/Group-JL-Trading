@@ -1,0 +1,178 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contact",
+    "book": "Réserver une course"
+  },
+  "common": {
+    "bookRide": "Réserver une course",
+    "learnMore": "En savoir plus",
+    "discover": "Découvrir",
+    "getInTouch": "Nous contacter",
+    "callUs": "Appelez-nous",
+    "whatsapp": "WhatsApp",
+    "menu": "Menu",
+    "close": "Fermer",
+    "switchTo": "English"
+  },
+  "home": {
+    "hero": {
+      "badge": "Transport & logistique · Dubaï",
+      "title": "Voyagez l'esprit libre, nous transportons vos colis",
+      "subtitle": "JL Results Transport FZCO assure vos transferts de personnes et l'acheminement de vos marchandises à travers les Émirats — avec flexibilité, sécurité et fiabilité.",
+      "ctaPrimary": "Réserver une course",
+      "ctaSecondary": "Découvrir nos services"
+    },
+    "stats": [
+      { "value": "24/7", "label": "Disponibilité" },
+      { "value": "100 %", "label": "Suivi en temps réel" },
+      { "value": "2", "label": "Bureaux : Dubaï & Kinshasa" }
+    ],
+    "servicesIntro": {
+      "eyebrow": "Nos services",
+      "title": "Une solution de mobilité pour chaque besoin",
+      "subtitle": "Du transfert aéroport à la livraison de colis, nous concevons des prestations sur mesure, ponctuelles et sécurisées."
+    },
+    "why": {
+      "eyebrow": "Pourquoi nous choisir",
+      "title": "La différence JL Results Transport",
+      "items": [
+        { "title": "Fiabilité absolue", "desc": "Des engagements tenus, des délais respectés, à chaque course." },
+        { "title": "Réactivité 24/7", "desc": "Une équipe joignable jour et nuit pour répondre à l'imprévu." },
+        { "title": "Sécurité garantie", "desc": "Vos passagers et vos colis voyagent entre de bonnes mains." },
+        { "title": "Suivi en temps réel", "desc": "Localisez votre course ou votre marchandise à tout moment." },
+        { "title": "Flexibilité totale", "desc": "Des prestations adaptées à vos horaires et à vos contraintes." }
+      ]
+    },
+    "partners": {
+      "eyebrow": "Ils nous font confiance",
+      "title": "Des entreprises qui comptent sur nous au quotidien",
+      "subtitle": "Rejoignez les organisations qui s'appuient sur notre réseau pour leur mobilité et leur logistique."
+    },
+    "cta": {
+      "title": "Prêt à réserver votre prochaine course ?",
+      "subtitle": "Parlez-nous de votre trajet ou de votre envoi — nous vous répondons en quelques minutes.",
+      "button": "Réserver maintenant"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "À propos",
+      "title": "Une entreprise de transport dynamique au cœur de Dubaï",
+      "subtitle": "Filiale du Groupe JL Consulting, JL Results Transport FZCO est implantée dans la zone franche IFZA et place la flexibilité, la sécurité et la fiabilité au centre de chaque trajet."
+    },
+    "story": {
+      "title": "Notre histoire",
+      "paragraphs": [
+        "Née de la vision du Groupe JL Consulting, JL Results Transport FZCO est une société de transport et de logistique enregistrée dans la zone franche IFZA, à Dubai Silicon Oasis.",
+        "Nous accompagnons particuliers et entreprises dans tous leurs déplacements et l'acheminement de leurs marchandises, en combinant un service humain de proximité et des outils de suivi modernes.",
+        "De Dubaï à Kinshasa, notre ambition reste la même : faire du transport une expérience simple, sûre et sans stress."
+      ]
+    },
+    "mission": {
+      "title": "Notre mission",
+      "text": "Offrir des solutions de mobilité et de logistique fiables, qui permettent à nos clients de voyager et d'expédier l'esprit tranquille."
+    },
+    "vision": {
+      "title": "Notre vision",
+      "text": "Devenir la référence du transport de personnes et de colis entre les Émirats et l'Afrique centrale, reconnue pour son exigence et sa proximité."
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "items": [
+        { "title": "Engagement", "desc": "Nous tenons nos promesses, course après course." },
+        { "title": "Sécurité", "desc": "La protection des personnes et des biens guide chaque décision." },
+        { "title": "Proximité", "desc": "Un interlocuteur dédié, à l'écoute de vos besoins réels." }
+      ]
+    },
+    "offices": {
+      "title": "Nos bureaux",
+      "items": [
+        { "city": "Dubaï", "role": "Siège social", "address": "IFZA Properties, DSO-IFZA, Dubai Silicon Oasis, Dubaï, EAU" },
+        { "city": "Kinshasa", "role": "Bureau régional", "address": "Kinshasa, République Démocratique du Congo" }
+      ]
+    }
+  },
+  "services": {
+    "hero": {
+      "eyebrow": "Nos services",
+      "title": "Transport de personnes et de marchandises, sur mesure",
+      "subtitle": "Des prestations professionnelles pensées pour les particuliers comme pour les entreprises, partout aux Émirats."
+    },
+    "items": [
+      {
+        "title": "Transferts professionnels",
+        "desc": "Aéroports, hôtels, centres de fret : des transferts ponctuels et confortables pour vos déplacements et ceux de vos clients.",
+        "features": ["Transferts aéroport", "Navettes hôtels", "Centres de fret & cargo", "Chauffeurs professionnels"]
+      },
+      {
+        "title": "Transport de marchandises",
+        "desc": "Acheminement de vos colis et marchandises, avec ou sans accompagnement du propriétaire, en toute sécurité.",
+        "features": ["Avec ou sans accompagnement", "Colis & marchandises diverses", "Manutention soignée", "Assurance des envois"]
+      },
+      {
+        "title": "Logistique sur mesure",
+        "desc": "Des solutions logistiques personnalisées, adaptées à vos volumes, vos délais et vos contraintes spécifiques.",
+        "features": ["Solutions personnalisées", "Disponibilité 24/7", "Suivi en temps réel", "Conseil dédié"]
+      }
+    ],
+    "process": {
+      "eyebrow": "Comment ça marche",
+      "title": "Réserver n'a jamais été aussi simple",
+      "steps": [
+        { "title": "Décrivez votre besoin", "desc": "Trajet, horaire, type de colis — partagez-nous l'essentiel." },
+        { "title": "Recevez votre confirmation", "desc": "Nous validons les détails et confirmons votre course rapidement." },
+        { "title": "Voyagez l'esprit libre", "desc": "Suivez votre course en temps réel jusqu'à destination." }
+      ]
+    },
+    "cta": {
+      "title": "Un trajet ou un envoi en tête ?",
+      "subtitle": "Contactez-nous pour un devis rapide et sans engagement.",
+      "button": "Demander un devis"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Parlons de votre prochain trajet",
+      "subtitle": "Remplissez le formulaire ou écrivez-nous directement sur WhatsApp — nous vous répondons rapidement."
+    },
+    "form": {
+      "name": "Nom complet",
+      "namePlaceholder": "Votre nom",
+      "email": "Adresse e-mail",
+      "emailPlaceholder": "vous@exemple.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "+971 ...",
+      "service": "Type de service",
+      "serviceOptions": ["Transfert professionnel", "Transport de marchandises", "Logistique sur mesure", "Autre"],
+      "message": "Votre message",
+      "messagePlaceholder": "Décrivez votre trajet ou votre envoi (date, lieux, détails)...",
+      "submit": "Envoyer la demande",
+      "sending": "Envoi en cours...",
+      "or": "ou",
+      "whatsappButton": "Écrire sur WhatsApp",
+      "successTitle": "Message envoyé !",
+      "successMsg": "Merci, nous revenons vers vous très vite.",
+      "errorMsg": "Une erreur est survenue. Réessayez ou contactez-nous sur WhatsApp.",
+      "required": "Ce champ est requis."
+    },
+    "info": {
+      "phoneLabel": "Téléphone",
+      "emailLabel": "E-mail",
+      "addressLabel": "Adresse",
+      "hoursLabel": "Disponibilité",
+      "hours": "7j/7 — 24h/24"
+    }
+  },
+  "footer": {
+    "tagline": "Transport de personnes et de marchandises, à travers les Émirats et au-delà.",
+    "quickLinks": "Navigation",
+    "contactTitle": "Contact",
+    "followTitle": "Suivez-nous",
+    "rights": "Tous droits réservés.",
+    "groupNote": "Une société du Groupe JL Consulting."
+  }
+}

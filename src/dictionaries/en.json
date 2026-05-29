@@ -1,0 +1,178 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "book": "Book a ride"
+  },
+  "common": {
+    "bookRide": "Book a ride",
+    "learnMore": "Learn more",
+    "discover": "Discover",
+    "getInTouch": "Get in touch",
+    "callUs": "Call us",
+    "whatsapp": "WhatsApp",
+    "menu": "Menu",
+    "close": "Close",
+    "switchTo": "Français"
+  },
+  "home": {
+    "hero": {
+      "badge": "Transport & logistics · Dubai",
+      "title": "Travel with peace of mind, we move your parcels",
+      "subtitle": "JL Results Transport FZCO handles your passenger transfers and the delivery of your goods across the Emirates — with flexibility, security and reliability.",
+      "ctaPrimary": "Book a ride",
+      "ctaSecondary": "Explore our services"
+    },
+    "stats": [
+      { "value": "24/7", "label": "Availability" },
+      { "value": "100%", "label": "Real-time tracking" },
+      { "value": "2", "label": "Offices: Dubai & Kinshasa" }
+    ],
+    "servicesIntro": {
+      "eyebrow": "Our services",
+      "title": "A mobility solution for every need",
+      "subtitle": "From airport transfers to parcel delivery, we craft tailored services that are punctual and secure."
+    },
+    "why": {
+      "eyebrow": "Why choose us",
+      "title": "The JL Results Transport difference",
+      "items": [
+        { "title": "Absolute reliability", "desc": "Commitments kept and deadlines met, on every ride." },
+        { "title": "24/7 responsiveness", "desc": "A team reachable day and night for the unexpected." },
+        { "title": "Guaranteed security", "desc": "Your passengers and parcels travel in safe hands." },
+        { "title": "Real-time tracking", "desc": "Locate your ride or your goods at any moment." },
+        { "title": "Total flexibility", "desc": "Services adapted to your schedule and your constraints." }
+      ]
+    },
+    "partners": {
+      "eyebrow": "Trusted by",
+      "title": "Companies that rely on us every day",
+      "subtitle": "Join the organizations that count on our network for their mobility and logistics."
+    },
+    "cta": {
+      "title": "Ready to book your next ride?",
+      "subtitle": "Tell us about your trip or shipment — we reply within minutes.",
+      "button": "Book now"
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About",
+      "title": "A dynamic transport company at the heart of Dubai",
+      "subtitle": "A subsidiary of Groupe JL Consulting, JL Results Transport FZCO is based in the IFZA Free Zone and puts flexibility, security and reliability at the center of every journey."
+    },
+    "story": {
+      "title": "Our story",
+      "paragraphs": [
+        "Born from the vision of Groupe JL Consulting, JL Results Transport FZCO is a transport and logistics company registered in the IFZA Free Zone, in Dubai Silicon Oasis.",
+        "We support individuals and businesses with all their journeys and the delivery of their goods, combining a personal, hands-on service with modern tracking tools.",
+        "From Dubai to Kinshasa, our ambition stays the same: to make transport a simple, safe and stress-free experience."
+      ]
+    },
+    "mission": {
+      "title": "Our mission",
+      "text": "To deliver reliable mobility and logistics solutions that let our clients travel and ship with complete peace of mind."
+    },
+    "vision": {
+      "title": "Our vision",
+      "text": "To become the reference for passenger and parcel transport between the Emirates and Central Africa, recognized for our standards and our closeness to clients."
+    },
+    "values": {
+      "title": "Our values",
+      "items": [
+        { "title": "Commitment", "desc": "We keep our promises, ride after ride." },
+        { "title": "Security", "desc": "Protecting people and goods guides every decision." },
+        { "title": "Closeness", "desc": "A dedicated contact who listens to your real needs." }
+      ]
+    },
+    "offices": {
+      "title": "Our offices",
+      "items": [
+        { "city": "Dubai", "role": "Headquarters", "address": "IFZA Properties, DSO-IFZA, Dubai Silicon Oasis, Dubai, UAE" },
+        { "city": "Kinshasa", "role": "Regional office", "address": "Kinshasa, Democratic Republic of the Congo" }
+      ]
+    }
+  },
+  "services": {
+    "hero": {
+      "eyebrow": "Our services",
+      "title": "Tailored transport of people and goods",
+      "subtitle": "Professional services designed for individuals and businesses alike, everywhere across the Emirates."
+    },
+    "items": [
+      {
+        "title": "Professional transfers",
+        "desc": "Airports, hotels, cargo centers: punctual and comfortable transfers for you and your clients.",
+        "features": ["Airport transfers", "Hotel shuttles", "Freight & cargo centers", "Professional drivers"]
+      },
+      {
+        "title": "Goods transport",
+        "desc": "Delivery of your parcels and goods, with or without the owner accompanying, in complete safety.",
+        "features": ["With or without escort", "Parcels & assorted goods", "Careful handling", "Shipment insurance"]
+      },
+      {
+        "title": "Tailored logistics",
+        "desc": "Custom logistics solutions adapted to your volumes, your deadlines and your specific constraints.",
+        "features": ["Custom solutions", "24/7 availability", "Real-time tracking", "Dedicated advice"]
+      }
+    ],
+    "process": {
+      "eyebrow": "How it works",
+      "title": "Booking has never been simpler",
+      "steps": [
+        { "title": "Describe your need", "desc": "Route, timing, type of parcel — share the essentials with us." },
+        { "title": "Receive your confirmation", "desc": "We validate the details and confirm your ride quickly." },
+        { "title": "Travel with peace of mind", "desc": "Track your ride in real time, all the way to its destination." }
+      ]
+    },
+    "cta": {
+      "title": "Have a trip or a shipment in mind?",
+      "subtitle": "Contact us for a quick, no-obligation quote.",
+      "button": "Request a quote"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about your next trip",
+      "subtitle": "Fill in the form or message us directly on WhatsApp — we reply quickly."
+    },
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "Your name",
+      "email": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone",
+      "phonePlaceholder": "+971 ...",
+      "service": "Type of service",
+      "serviceOptions": ["Professional transfer", "Goods transport", "Tailored logistics", "Other"],
+      "message": "Your message",
+      "messagePlaceholder": "Describe your trip or shipment (date, locations, details)...",
+      "submit": "Send request",
+      "sending": "Sending...",
+      "or": "or",
+      "whatsappButton": "Message on WhatsApp",
+      "successTitle": "Message sent!",
+      "successMsg": "Thank you, we'll get back to you very soon.",
+      "errorMsg": "Something went wrong. Please retry or reach us on WhatsApp.",
+      "required": "This field is required."
+    },
+    "info": {
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "addressLabel": "Address",
+      "hoursLabel": "Availability",
+      "hours": "7 days a week — 24 hours a day"
+    }
+  },
+  "footer": {
+    "tagline": "Transport of people and goods, across the Emirates and beyond.",
+    "quickLinks": "Navigation",
+    "contactTitle": "Contact",
+    "followTitle": "Follow us",
+    "rights": "All rights reserved.",
+    "groupNote": "A company of Groupe JL Consulting."
+  }
+}
