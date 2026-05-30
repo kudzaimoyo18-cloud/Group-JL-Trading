@@ -18,6 +18,11 @@
     "switchTo": "English"
   },
   "home": {
+    "intro": {
+      "title": "Voyagez l'esprit libre",
+      "subtitle": "Transport de personnes et de colis à travers les Émirats",
+      "scrollHint": "Défilez pour découvrir"
+    },
     "hero": {
       "badge": "Transport & logistique · Dubaï",
       "title": "Voyagez l'esprit libre, nous transportons vos colis",

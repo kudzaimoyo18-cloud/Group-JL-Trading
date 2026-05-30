@@ -18,6 +18,11 @@
     "switchTo": "Français"
   },
   "home": {
+    "intro": {
+      "title": "Travel with peace of mind",
+      "subtitle": "Transport of people and parcels across the Emirates",
+      "scrollHint": "Scroll to explore"
+    },
     "hero": {
       "badge": "Transport & logistics · Dubai",
       "title": "Travel with peace of mind, we move your parcels",

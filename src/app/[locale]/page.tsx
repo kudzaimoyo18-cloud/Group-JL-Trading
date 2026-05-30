@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { isLocale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
+import { ScrollIntro } from "@/components/scroll-intro";
 import { Hero } from "@/components/hero";
 import { SectionHeading } from "@/components/section-heading";
 import { ServiceCard } from "@/components/service-card";
@@ -44,6 +45,7 @@ export default async function HomePage({
 
   return (
     <>
+      <ScrollIntro dict={home.intro} />
       <Hero locale={locale} dict={home.hero} stats={home.stats} />
 
       {/* Services preview */}
