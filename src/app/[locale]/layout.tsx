@@ -8,7 +8,7 @@ import { getNavItems } from "@/lib/nav";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 
-// Variable fonts via next/font/google — self-hosted at build, no runtime calls.
+// Self-hosted at build time by next/font — no runtime network calls.
 // The "latin" subset covers all French accents (U+00C0–00FF), so FR + EN render.
 const display = Sora({
   subsets: ["latin"],
