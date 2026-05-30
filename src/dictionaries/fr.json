@@ -46,6 +46,11 @@
         { "title": "Flexibilité totale", "desc": "Des prestations adaptées à vos horaires et à vos contraintes." }
       ]
     },
+    "gallery": {
+      "eyebrow": "En images",
+      "title": "Le transport JL Results en action",
+      "subtitle": "Des transferts soignés et un service de proximité, aux Émirats comme au-delà."
+    },
     "partners": {
       "eyebrow": "Ils nous font confiance",
       "title": "Des entreprises qui comptent sur nous au quotidien",
@@ -86,6 +91,14 @@
         { "title": "Sécurité", "desc": "La protection des personnes et des biens guide chaque décision." },
         { "title": "Proximité", "desc": "Un interlocuteur dédié, à l'écoute de vos besoins réels." }
       ]
+    },
+    "founder": {
+      "eyebrow": "Le fondateur",
+      "title": "Une vision portée par son fondateur",
+      "name": "Fondateur & Directeur",
+      "role": "Groupe JL Consulting",
+      "quote": "Notre engagement est simple : transporter chaque personne et chaque colis comme s'il s'agissait des nôtres. La confiance se gagne à chaque trajet.",
+      "bio": "À la tête du Groupe JL Consulting, il a fondé JL Results Transport FZCO avec l'ambition de relier les Émirats et l'Afrique centrale par un service de transport fiable, humain et résolument moderne."
     },
     "offices": {
       "title": "Nos bureaux",

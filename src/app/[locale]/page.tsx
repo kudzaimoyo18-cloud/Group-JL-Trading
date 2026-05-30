@@ -15,6 +15,7 @@ import { Hero } from "@/components/hero";
 import { SectionHeading } from "@/components/section-heading";
 import { ServiceCard } from "@/components/service-card";
 import { Reveal } from "@/components/reveal";
+import { Gallery } from "@/components/gallery";
 import { CtaBand } from "@/components/cta-band";
 
 const serviceIcons = [
@@ -90,6 +91,13 @@ export default async function HomePage({
           </div>
         </div>
       </section>
+
+      {/* Gallery */}
+      <Gallery
+        eyebrow={home.gallery.eyebrow}
+        title={home.gallery.title}
+        subtitle={home.gallery.subtitle}
+      />
 
       {/* Partners */}
       <section className="container-page py-20 lg:py-24">

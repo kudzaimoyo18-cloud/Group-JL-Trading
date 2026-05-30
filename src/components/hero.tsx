@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
 import { ArrowRight, MapPin, Navigation, Package, Plane, Clock } from "lucide-react";
 import type { Locale } from "@/lib/i18n";
@@ -36,13 +37,22 @@ export function Hero({
 
   return (
     <section className="relative overflow-hidden">
-      {/* soft brand backdrop — no purple gradients */}
+      {/* photographic backdrop */}
+      <Image
+        src="/images/hero-bg.jpeg"
+        alt=""
+        fill
+        priority
+        sizes="100vw"
+        className="-z-20 object-cover object-center"
+      />
+      {/* navy scrim so foreground text stays readable over the photo */}
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 -z-10"
         style={{
           background:
-            "radial-gradient(60rem 40rem at 85% -10%, oklch(0.92 0.04 78 / 0.5), transparent 60%), radial-gradient(50rem 40rem at -10% 10%, oklch(0.9 0.03 260 / 0.55), transparent 55%)",
+            "linear-gradient(180deg, oklch(0.991 0.003 255 / 0.92) 0%, oklch(0.991 0.003 255 / 0.82) 45%, oklch(0.991 0.003 255 / 0.9) 100%), radial-gradient(60rem 40rem at 85% -10%, oklch(0.92 0.04 78 / 0.45), transparent 60%), radial-gradient(50rem 40rem at -10% 10%, oklch(0.9 0.03 260 / 0.5), transparent 55%)",
         }}
       />
 

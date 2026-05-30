@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
-import { Target, Eye, Building2, MapPin, Handshake, ShieldCheck, Users } from "lucide-react";
+import { Target, Eye, Building2, MapPin, Handshake, ShieldCheck, Users, Quote } from "lucide-react";
 import { isLocale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/dictionaries";
 import { PageHero } from "@/components/page-hero";
@@ -122,6 +123,44 @@ export default async function AboutPage({
               </Card>
             </Reveal>
           ))}
+        </div>
+      </section>
+
+      {/* Founder */}
+      <section className="bg-surface-dark py-20 lg:py-24">
+        <div className="container-page grid items-center gap-12 lg:grid-cols-[0.85fr_1.15fr]">
+          <Reveal className="relative mx-auto w-full max-w-sm">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-3xl border border-white/10 shadow-2xl">
+              <Image
+                src="/images/founder.jpeg"
+                alt={about.founder.name}
+                fill
+                sizes="(max-width: 1024px) 80vw, 400px"
+                className="object-cover object-top"
+              />
+            </div>
+            <div className="absolute -bottom-5 left-6 rounded-2xl border border-white/10 bg-card px-5 py-3 shadow-lg">
+              <p className="font-display text-base font-semibold text-primary">
+                {about.founder.name}
+              </p>
+              <p className="text-sm text-muted-foreground">{about.founder.role}</p>
+            </div>
+          </Reveal>
+
+          <Reveal delay={0.1}>
+            <span className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.14em] text-accent">
+              <span className="h-px w-6 bg-accent" aria-hidden />
+              {about.founder.eyebrow}
+            </span>
+            <h2 className="mt-5 text-3xl text-surface-dark-foreground sm:text-4xl">
+              {about.founder.title}
+            </h2>
+            <Quote className="mt-6 h-8 w-8 text-accent" />
+            <blockquote className="mt-3 text-xl font-medium leading-relaxed text-surface-dark-foreground">
+              {about.founder.quote}
+            </blockquote>
+            <p className="mt-6 text-surface-dark-foreground/75">{about.founder.bio}</p>
+          </Reveal>
         </div>
       </section>
 

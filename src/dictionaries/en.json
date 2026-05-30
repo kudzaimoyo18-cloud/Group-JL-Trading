@@ -46,6 +46,11 @@
         { "title": "Total flexibility", "desc": "Services adapted to your schedule and your constraints." }
       ]
     },
+    "gallery": {
+      "eyebrow": "In pictures",
+      "title": "JL Results Transport in action",
+      "subtitle": "Polished transfers and a hands-on service, across the Emirates and beyond."
+    },
     "partners": {
       "eyebrow": "Trusted by",
       "title": "Companies that rely on us every day",
@@ -86,6 +91,14 @@
         { "title": "Security", "desc": "Protecting people and goods guides every decision." },
         { "title": "Closeness", "desc": "A dedicated contact who listens to your real needs." }
       ]
+    },
+    "founder": {
+      "eyebrow": "The founder",
+      "title": "A vision driven by its founder",
+      "name": "Founder & Director",
+      "role": "Groupe JL Consulting",
+      "quote": "Our commitment is simple: move every person and every parcel as if it were our own. Trust is earned on every single trip.",
+      "bio": "At the helm of Groupe JL Consulting, he founded JL Results Transport FZCO to connect the Emirates and Central Africa through transport that is reliable, personal and resolutely modern."
     },
     "offices": {
       "title": "Our offices",
