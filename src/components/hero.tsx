@@ -52,7 +52,7 @@ export function Hero({
         className="pointer-events-none absolute inset-0 -z-10"
         style={{
           background:
-            "linear-gradient(180deg, oklch(0.991 0.003 255 / 0.92) 0%, oklch(0.991 0.003 255 / 0.82) 45%, oklch(0.991 0.003 255 / 0.9) 100%), radial-gradient(60rem 40rem at 85% -10%, oklch(0.92 0.04 78 / 0.45), transparent 60%), radial-gradient(50rem 40rem at -10% 10%, oklch(0.9 0.03 260 / 0.5), transparent 55%)",
+            "linear-gradient(180deg, oklch(0.991 0.003 255 / 0.90) 0%, oklch(0.991 0.003 255 / 0.80) 45%, oklch(0.991 0.003 255 / 0.9) 100%), radial-gradient(60rem 40rem at 85% -10%, oklch(0.58 0.19 256 / 0.34), transparent 60%), radial-gradient(50rem 40rem at -10% 10%, oklch(0.80 0.12 205 / 0.36), transparent 55%)",
         }}
       />
 

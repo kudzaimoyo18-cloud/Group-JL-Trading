@@ -30,6 +30,12 @@
   --color-accent-hover: oklch(0.76 0.145 70);
   --color-accent-foreground: oklch(0.28 0.06 70);
 
+  /* Cool decorative palette — electric blue + cyan (glows, gradients) */
+  --color-electric: oklch(0.58 0.19 256);
+  --color-electric-soft: oklch(0.72 0.13 250);
+  --color-cyan: oklch(0.80 0.12 205);
+  --color-cyan-soft: oklch(0.88 0.08 200);
+
   --color-ring: oklch(0.42 0.105 260);
 
   /* Type families (bound to next/font CSS variables set on <html>) */

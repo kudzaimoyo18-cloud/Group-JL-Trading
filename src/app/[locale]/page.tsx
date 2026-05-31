@@ -17,6 +17,7 @@ import { SectionHeading } from "@/components/section-heading";
 import { ServiceCard } from "@/components/service-card";
 import { Reveal } from "@/components/reveal";
 import { Gallery } from "@/components/gallery";
+import { Glow } from "@/components/glow";
 import { CtaBand } from "@/components/cta-band";
 
 const serviceIcons = [
@@ -49,7 +50,9 @@ export default async function HomePage({
       <Hero locale={locale} dict={home.hero} stats={home.stats} />
 
       {/* Services preview */}
-      <section className="container-page py-20 lg:py-24">
+      <section className="relative overflow-hidden py-20 lg:py-24">
+        <Glow variant="electric" />
+        <div className="container-page">
         <SectionHeading
           eyebrow={home.servicesIntro.eyebrow}
           title={home.servicesIntro.title}
@@ -68,11 +71,13 @@ export default async function HomePage({
             </Reveal>
           ))}
         </div>
+        </div>
       </section>
 
       {/* Why choose us */}
-      <section className="bg-muted py-20 lg:py-24">
-        <div className="container-page">
+      <section className="relative overflow-hidden bg-muted py-20 lg:py-24">
+        <Glow variant="cyan" />
+        <div className="relative container-page">
           <SectionHeading
             eyebrow={home.why.eyebrow}
             title={home.why.title}
@@ -81,7 +86,13 @@ export default async function HomePage({
           <div className="mx-auto mt-12 grid max-w-5xl gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
             {home.why.items.map((it, i) => (
               <Reveal key={it.title} delay={i * 0.06} className="flex gap-4">
-                <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-card text-primary shadow-sm">
+                <span
+                  className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl text-white shadow-sm"
+                  style={{
+                    background:
+                      "linear-gradient(135deg, oklch(0.58 0.19 256), oklch(0.80 0.12 205))",
+                  }}
+                >
                   {whyIcons[i]}
                 </span>
                 <div>
@@ -102,7 +113,9 @@ export default async function HomePage({
       />
 
       {/* Partners */}
-      <section className="container-page py-20 lg:py-24">
+      <section className="relative overflow-hidden py-20 lg:py-24">
+        <Glow variant="mixed" />
+        <div className="container-page">
         <SectionHeading
           eyebrow={home.partners.eyebrow}
           title={home.partners.title}
@@ -117,13 +130,14 @@ export default async function HomePage({
             (name) => (
               <div
                 key={name}
-                className="flex h-20 items-center justify-center rounded-2xl border border-border bg-card font-display text-lg font-semibold tracking-tight text-muted-foreground/70"
+                className="flex h-20 items-center justify-center rounded-2xl border border-border bg-card font-display text-lg font-semibold tracking-tight text-muted-foreground/70 transition-colors hover:border-electric/40 hover:text-primary"
               >
                 {name}
               </div>
             ),
           )}
         </Reveal>
+        </div>
       </section>
 
       <CtaBand

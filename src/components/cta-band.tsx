@@ -22,10 +22,10 @@ export function CtaBand({
       <Reveal className="relative overflow-hidden rounded-3xl bg-surface-dark px-8 py-14 text-center sm:px-12 lg:py-20">
         <div
           aria-hidden
-          className="pointer-events-none absolute inset-0 opacity-60"
+          className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(40rem 24rem at 80% 120%, oklch(0.81 0.142 78 / 0.22), transparent 60%)",
+              "radial-gradient(42rem 26rem at 80% 120%, oklch(0.58 0.19 256 / 0.45), transparent 60%), radial-gradient(34rem 24rem at 12% -10%, oklch(0.80 0.12 205 / 0.32), transparent 60%)",
           }}
         />
         <div className="relative mx-auto max-w-2xl">

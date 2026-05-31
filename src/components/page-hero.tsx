@@ -18,7 +18,7 @@ export function PageHero({
         className="pointer-events-none absolute inset-0 -z-10"
         style={{
           background:
-            "radial-gradient(48rem 28rem at 90% -20%, oklch(0.92 0.04 78 / 0.45), transparent 60%), radial-gradient(40rem 28rem at -10% 0%, oklch(0.9 0.03 260 / 0.5), transparent 55%)",
+            "radial-gradient(48rem 28rem at 90% -20%, oklch(0.58 0.19 256 / 0.22), transparent 60%), radial-gradient(40rem 28rem at -10% 0%, oklch(0.80 0.12 205 / 0.26), transparent 55%)",
         }}
       />
       <div className="container-page py-16 lg:py-24">

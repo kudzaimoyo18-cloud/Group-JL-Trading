@@ -17,8 +17,16 @@ export function SiteFooter({
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-surface-dark text-surface-dark-foreground">
-      <div className="container-page grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1.2fr]">
+    <footer className="relative overflow-hidden bg-surface-dark text-surface-dark-foreground">
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0"
+        style={{
+          background:
+            "radial-gradient(44rem 26rem at 88% -10%, oklch(0.58 0.19 256 / 0.30), transparent 60%), radial-gradient(38rem 26rem at 5% 110%, oklch(0.80 0.12 205 / 0.22), transparent 60%)",
+        }}
+      />
+      <div className="relative container-page grid gap-12 py-16 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1.2fr]">
         <div className="max-w-sm">
           <Logo locale={locale} tone="dark" />
           <p className="mt-5 text-surface-dark-foreground/75">{dict.footer.tagline}</p>
@@ -97,7 +105,7 @@ export function SiteFooter({
         </div>
       </div>
 
-      <div className="border-t border-white/10">
+      <div className="relative border-t border-white/10">
         <div className="container-page flex flex-col items-center justify-between gap-2 py-6 text-sm text-surface-dark-foreground/55 sm:flex-row">
           <p>
             © {year} {company.legalName}. {dict.footer.rights}

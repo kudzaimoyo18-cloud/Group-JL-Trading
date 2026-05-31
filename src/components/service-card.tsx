@@ -23,11 +23,25 @@ export function ServiceCard({
   return (
     <Card
       className={cn(
-        "group flex h-full flex-col p-7 transition-all duration-300 hover:-translate-y-1 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5",
+        "group relative flex h-full flex-col overflow-hidden p-7 transition-all duration-300 hover:-translate-y-1 hover:border-electric/40 hover:shadow-xl hover:shadow-electric/10",
         className,
       )}
     >
-      <span className="grid h-13 w-13 place-items-center rounded-2xl bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
+      {/* cool tint that blooms on hover */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 -z-10 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+        style={{
+          background:
+            "radial-gradient(26rem 18rem at 0% 0%, oklch(0.80 0.12 205 / 0.16), transparent 60%), radial-gradient(24rem 18rem at 100% 100%, oklch(0.58 0.19 256 / 0.14), transparent 60%)",
+        }}
+      />
+      <span className="grid h-13 w-13 place-items-center rounded-2xl text-white shadow-sm transition-transform duration-300 group-hover:scale-105"
+        style={{
+          background:
+            "linear-gradient(135deg, oklch(0.58 0.19 256), oklch(0.80 0.12 205))",
+        }}
+      >
         {icon}
       </span>
 
