@@ -58,6 +58,7 @@ export async function generateMetadata({
     },
     twitter: { card: "summary_large_image", title, description },
     icons: { icon: "/favicon.ico" },
+    other: { "theme-color": "#0b1326" },
   };
 }
 

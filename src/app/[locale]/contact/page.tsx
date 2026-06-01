@@ -107,6 +107,9 @@ export default async function ContactPage({
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               className="h-64 w-full"
+              style={{
+                filter: "invert(0.9) hue-rotate(180deg) saturate(0.85) brightness(0.95)",
+              }}
             />
           </div>
         </Reveal>

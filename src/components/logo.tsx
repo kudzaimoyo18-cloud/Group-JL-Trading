@@ -28,20 +28,10 @@ export function Logo({
         JL
       </span>
       <span className="flex flex-col leading-none">
-        <span
-          className={cn(
-            "font-display text-base font-semibold tracking-tight",
-            tone === "dark" ? "text-surface-dark-foreground" : "text-primary",
-          )}
-        >
+        <span className="font-display text-base font-semibold tracking-tight text-foreground">
           Group JL Trading
         </span>
-        <span
-          className={cn(
-            "mt-0.5 text-[0.7rem] uppercase tracking-[0.18em]",
-            tone === "dark" ? "text-surface-dark-foreground/70" : "text-muted-foreground",
-          )}
-        >
+        <span className="mt-0.5 text-[0.7rem] uppercase tracking-[0.18em] text-muted-foreground">
           Results Transport
         </span>
       </span>
