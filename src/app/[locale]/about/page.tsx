@@ -46,6 +46,7 @@ export default async function AboutPage({
         eyebrow={about.hero.eyebrow}
         title={about.hero.title}
         subtitle={about.hero.subtitle}
+        tone="indigo"
       />
 
       {/* Story + offices */}
@@ -110,7 +111,7 @@ export default async function AboutPage({
 
       {/* Values */}
       <section className="container-page py-20 lg:py-24">
-        <SectionHeading title={about.values.title} align="center" />
+        <SectionHeading title={about.values.title} align="center" tone="indigo" />
         <div className="mx-auto mt-12 grid max-w-4xl gap-6 sm:grid-cols-3">
           {about.values.items.map((v, i) => (
             <Reveal key={v.title} delay={i * 0.08}>

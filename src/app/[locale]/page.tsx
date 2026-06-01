@@ -49,14 +49,15 @@ export default async function HomePage({
       <ScrollIntro dict={home.intro} />
       <Hero locale={locale} dict={home.hero} stats={home.stats} />
 
-      {/* Services preview */}
+      {/* Services preview — indigo */}
       <section className="relative overflow-hidden py-20 lg:py-24">
-        <Glow variant="electric" />
+        <Glow variant="indigo" />
         <div className="container-page">
         <SectionHeading
           eyebrow={home.servicesIntro.eyebrow}
           title={home.servicesIntro.title}
           subtitle={home.servicesIntro.subtitle}
+          tone="indigo"
         />
         <div className="mt-12 grid gap-6 md:grid-cols-3">
           {services.items.map((s, i) => (
@@ -74,7 +75,7 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Why choose us */}
+      {/* Why choose us — cyan */}
       <section className="relative overflow-hidden bg-muted py-20 lg:py-24">
         <Glow variant="cyan" />
         <div className="relative container-page">
@@ -82,6 +83,7 @@ export default async function HomePage({
             eyebrow={home.why.eyebrow}
             title={home.why.title}
             align="center"
+            tone="cyan"
           />
           <div className="mx-auto mt-12 grid max-w-5xl gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
             {home.why.items.map((it, i) => (
@@ -105,22 +107,24 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Gallery */}
+      {/* Gallery — teal */}
       <Gallery
         eyebrow={home.gallery.eyebrow}
         title={home.gallery.title}
         subtitle={home.gallery.subtitle}
+        tone="teal"
       />
 
-      {/* Partners */}
+      {/* Partners — electric */}
       <section className="relative overflow-hidden py-20 lg:py-24">
-        <Glow variant="mixed" />
+        <Glow variant="electric" />
         <div className="container-page">
         <SectionHeading
           eyebrow={home.partners.eyebrow}
           title={home.partners.title}
           subtitle={home.partners.subtitle}
           align="center"
+          tone="electric"
         />
         <Reveal
           className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5"

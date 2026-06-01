@@ -65,6 +65,7 @@ export default async function ContactPage({
         eyebrow={contact.hero.eyebrow}
         title={contact.hero.title}
         subtitle={contact.hero.subtitle}
+        tone="cyan"
       />
 
       <section className="container-page grid gap-12 py-20 lg:grid-cols-[1fr_1.1fr] lg:py-24">

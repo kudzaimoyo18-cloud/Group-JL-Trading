@@ -1,27 +1,32 @@
 import { cn } from "@/lib/utils";
+import { tones, type Tone } from "@/lib/tones";
 
-/** Small uppercase label that introduces a section. */
+/**
+ * Small uppercase section label. The accent bar + text colour follow
+ * a tone, so each section can carry its own cool hue.
+ */
 export function Eyebrow({
   children,
+  tone = "electric",
   className,
 }: {
   children: React.ReactNode;
+  tone?: Tone;
   className?: string;
 }) {
+  const t = tones[tone];
   return (
     <span
       className={cn(
-        "inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.14em] text-electric",
+        "inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.14em]",
         className,
       )}
+      style={{ color: t.text }}
     >
       <span
         className="h-0.5 w-6 rounded-full"
         aria-hidden
-        style={{
-          background:
-            "linear-gradient(90deg, oklch(0.58 0.19 256), oklch(0.80 0.12 205))",
-        }}
+        style={{ background: `linear-gradient(90deg, ${t.main}, ${t.soft})` }}
       />
       {children}
     </span>

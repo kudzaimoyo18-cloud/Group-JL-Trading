@@ -1,18 +1,21 @@
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { Reveal } from "@/components/reveal";
 import { cn } from "@/lib/utils";
+import type { Tone } from "@/lib/tones";
 
 export function SectionHeading({
   eyebrow,
   title,
   subtitle,
   align = "left",
+  tone = "electric",
   className,
 }: {
   eyebrow?: string;
   title: string;
   subtitle?: string;
   align?: "left" | "center";
+  tone?: Tone;
   className?: string;
 }) {
   return (
@@ -23,7 +26,7 @@ export function SectionHeading({
         className,
       )}
     >
-      {eyebrow ? <Eyebrow>{eyebrow}</Eyebrow> : null}
+      {eyebrow ? <Eyebrow tone={tone}>{eyebrow}</Eyebrow> : null}
       <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem]">{title}</h2>
       {subtitle ? (
         <p

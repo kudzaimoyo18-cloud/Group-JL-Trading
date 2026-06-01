@@ -45,6 +45,7 @@ export default async function ServicesPage({
         eyebrow={services.hero.eyebrow}
         title={services.hero.title}
         subtitle={services.hero.subtitle}
+        tone="teal"
       />
 
       {/* Service detail cards */}
@@ -70,6 +71,7 @@ export default async function ServicesPage({
             eyebrow={services.process.eyebrow}
             title={services.process.title}
             align="center"
+            tone="teal"
           />
           <ol className="mx-auto mt-14 grid max-w-5xl gap-8 md:grid-cols-3">
             {services.process.steps.map((step, i) => (

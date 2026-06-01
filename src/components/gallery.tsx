@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Reveal } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
+import { Glow } from "@/components/glow";
+import type { Tone } from "@/lib/tones";
 
 const shots = [
   { src: "/images/showcase-1.jpeg", className: "sm:col-span-2 aspect-[4/3]" },
@@ -12,14 +14,18 @@ export function Gallery({
   eyebrow,
   title,
   subtitle,
+  tone = "electric",
 }: {
   eyebrow: string;
   title: string;
   subtitle: string;
+  tone?: Tone;
 }) {
   return (
-    <section className="container-page py-20 lg:py-24">
-      <SectionHeading eyebrow={eyebrow} title={title} subtitle={subtitle} align="center" />
+    <section className="relative overflow-hidden py-20 lg:py-24">
+      <Glow variant={tone} />
+      <div className="container-page">
+      <SectionHeading eyebrow={eyebrow} title={title} subtitle={subtitle} align="center" tone={tone} />
       <Reveal
         className="mx-auto mt-12 grid max-w-5xl auto-rows-auto grid-cols-1 gap-4 sm:grid-cols-3"
         delay={0.05}
@@ -39,6 +45,7 @@ export function Gallery({
           </div>
         ))}
       </Reveal>
+      </div>
     </section>
   );
 }
